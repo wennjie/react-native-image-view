@@ -1,6 +1,6 @@
 // @flow
 
-import React, {Component, type Node, type ComponentType} from 'react';
+import React, {Component, Node, ComponentType} from 'react';
 import {
     ActivityIndicator,
     Animated,
@@ -13,17 +13,17 @@ import {
 } from 'react-native';
 
 import {
-    type ControlType,
-    type ControlsType,
-    type DimensionsType,
-    type EventType,
-    type ImageType,
-    type ImageSizeType,
-    type GestureState,
-    type NativeEventType,
-    type TouchType,
-    type TransitionType,
-    type TranslateType,
+     ControlType,
+     ControlsType,
+     DimensionsType,
+     EventType,
+     ImageType,
+     ImageSizeType,
+     GestureState,
+     NativeEventType,
+     TouchType,
+     TransitionType,
+     TranslateType,
 } from './types';
 
 import {
